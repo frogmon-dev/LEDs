@@ -72,7 +72,6 @@ class REQUEST():
 			
 		phpFileNm = "get_weather_info.php";
 		
-		#url = 'http://119.197.41.9/svr_api/'
 		url = 'http://frogmon.synology.me/svr_api/'
 		url = "%s%s?position=%s" % (url, phpFileNm, local_id)
 		
@@ -91,7 +90,6 @@ class REQUEST():
 			
 		phpFileNm = "get_covid19_info.php";
 		
-		#url = 'http://119.197.41.9/svr_api/'
 		url = 'http://frogmon.synology.me/svr_api/'
 		url = "%s%s" % (url, phpFileNm)
 		
@@ -109,7 +107,6 @@ class REQUEST():
 			
 		phpFileNm = "get_news_list.php";
 		
-		#url = 'http://119.197.41.9/svr_api/'
 		url = 'http://frogmon.synology.me/svr_api/'
 		url = "%s%s" % (url, phpFileNm)
 		
@@ -127,7 +124,6 @@ class REQUEST():
 			
 		phpFileNm = "get_weather_after5_info.php";
 		
-		#url = 'http://119.197.41.9/svr_api/'
 		url = 'http://frogmon.synology.me/svr_api/'
 		url = "%s%s?position=%s" % (url, phpFileNm, local_id)
 		
